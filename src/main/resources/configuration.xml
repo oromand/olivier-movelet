@@ -1,0 +1,26 @@
+<config>
+    <movilizer>
+        <system>
+            <endpoint>https://demo.movilizer.com/MovilizerDistributionService/WebService/</endpoint>
+            <id>12820002</id>
+            <password>PblNAVrZ5M8xjvTwYUSh3Nn4cQVHt</password>
+            <timeout>1800</timeout>
+        </system>
+        <pull>
+            <number-of-replies>1000</number-of-replies>
+        </pull>
+
+    </movilizer>
+    <db-connections>
+    <jdbc>
+        <url>jdbc:as400://DVLPSCGI/movilizer</url>
+        <user>webcde</user>
+        <password>webcde</password>
+    </jdbc>
+    </db-connections>
+
+    <proxy>
+        <host>olfeo.epi.local</host>
+        <port>3128</port>
+    </proxy>
+</config>
